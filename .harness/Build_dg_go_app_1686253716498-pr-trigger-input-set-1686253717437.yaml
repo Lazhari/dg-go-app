@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_dg_go_app_1686253716498-pr-trigger-input-set
+  identifier: Build_dg_go_app_1686253716498prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_dg_go_app_1686253716498
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
